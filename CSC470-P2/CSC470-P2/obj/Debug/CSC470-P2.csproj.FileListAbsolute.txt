@@ -1,0 +1,9 @@
+C:\Users\Payton\School\Software Engineering (CSC 470)\P2\P2 Code\CSC470-P2\CSC470-P2\bin\Debug\CSC470-P2.exe.config
+C:\Users\Payton\School\Software Engineering (CSC 470)\P2\P2 Code\CSC470-P2\CSC470-P2\bin\Debug\CSC470-P2.exe
+C:\Users\Payton\School\Software Engineering (CSC 470)\P2\P2 Code\CSC470-P2\CSC470-P2\bin\Debug\CSC470-P2.pdb
+C:\Users\Payton\School\Software Engineering (CSC 470)\P2\P2 Code\CSC470-P2\CSC470-P2\obj\Debug\CSC470-P2.csprojAssemblyReference.cache
+C:\Users\Payton\School\Software Engineering (CSC 470)\P2\P2 Code\CSC470-P2\CSC470-P2\obj\Debug\CSC470_P2.Properties.Resources.resources
+C:\Users\Payton\School\Software Engineering (CSC 470)\P2\P2 Code\CSC470-P2\CSC470-P2\obj\Debug\CSC470-P2.csproj.GenerateResource.cache
+C:\Users\Payton\School\Software Engineering (CSC 470)\P2\P2 Code\CSC470-P2\CSC470-P2\obj\Debug\CSC470-P2.csproj.CoreCompileInputs.cache
+C:\Users\Payton\School\Software Engineering (CSC 470)\P2\P2 Code\CSC470-P2\CSC470-P2\obj\Debug\CSC470-P2.exe
+C:\Users\Payton\School\Software Engineering (CSC 470)\P2\P2 Code\CSC470-P2\CSC470-P2\obj\Debug\CSC470-P2.pdb
