@@ -38,10 +38,9 @@
             // btnCancel
             // 
             this.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnCancel.Location = new System.Drawing.Point(16, 254);
-            this.btnCancel.Margin = new System.Windows.Forms.Padding(4);
+            this.btnCancel.Location = new System.Drawing.Point(12, 301);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(135, 44);
+            this.btnCancel.Size = new System.Drawing.Size(101, 36);
             this.btnCancel.TabIndex = 0;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
@@ -49,10 +48,9 @@
             // 
             // btnThrowItBack
             // 
-            this.btnThrowItBack.Location = new System.Drawing.Point(167, 254);
-            this.btnThrowItBack.Margin = new System.Windows.Forms.Padding(4);
+            this.btnThrowItBack.Location = new System.Drawing.Point(168, 301);
             this.btnThrowItBack.Name = "btnThrowItBack";
-            this.btnThrowItBack.Size = new System.Drawing.Size(135, 44);
+            this.btnThrowItBack.Size = new System.Drawing.Size(101, 36);
             this.btnThrowItBack.TabIndex = 1;
             this.btnThrowItBack.Text = "Throw it Back";
             this.btnThrowItBack.UseVisualStyleBackColor = true;
@@ -60,10 +58,9 @@
             // 
             // btnKeepIt
             // 
-            this.btnKeepIt.Location = new System.Drawing.Point(317, 254);
-            this.btnKeepIt.Margin = new System.Windows.Forms.Padding(4);
+            this.btnKeepIt.Location = new System.Drawing.Point(321, 301);
             this.btnKeepIt.Name = "btnKeepIt";
-            this.btnKeepIt.Size = new System.Drawing.Size(135, 44);
+            this.btnKeepIt.Size = new System.Drawing.Size(101, 36);
             this.btnKeepIt.TabIndex = 2;
             this.btnKeepIt.Text = "Keep It";
             this.btnKeepIt.UseVisualStyleBackColor = true;
@@ -72,9 +69,10 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::CSC470_P2.Properties.Resources.Crappie;
-            this.pictureBox1.Location = new System.Drawing.Point(51, 32);
+            this.pictureBox1.Location = new System.Drawing.Point(38, 26);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(371, 215);
+            this.pictureBox1.Size = new System.Drawing.Size(363, 246);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
@@ -82,15 +80,14 @@
             // 
             // FormSeeFish
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnCancel;
-            this.ClientSize = new System.Drawing.Size(469, 343);
+            this.ClientSize = new System.Drawing.Size(434, 361);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnKeepIt);
             this.Controls.Add(this.btnThrowItBack);
             this.Controls.Add(this.btnCancel);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormSeeFish";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Keep it or let it go";
