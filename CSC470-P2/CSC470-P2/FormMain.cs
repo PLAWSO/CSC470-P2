@@ -17,5 +17,12 @@ namespace CSC470_P2
             InitializeComponent();
             
         }
+
+        private void btnSeeFish_Click(object sender, EventArgs e)
+        {
+            FormSeeFish formseefish = new FormSeeFish();
+            formseefish.ShowDialog();
+
+        }
     }
 }

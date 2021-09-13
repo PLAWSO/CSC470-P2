@@ -19,11 +19,18 @@ namespace CSC470_P2
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
 
         private void btnThrowItBack_Click(object sender, EventArgs e)
         {
+            this.Close();
+        }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            this.Close();
+
 
         }
     }
