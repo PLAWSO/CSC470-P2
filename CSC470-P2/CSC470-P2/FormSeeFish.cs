@@ -12,9 +12,22 @@ namespace CSC470_P2
 {
     public partial class FormSeeFish : Form
     {
-        public FormSeeFish()
+        public FormSeeFish(string selectedFish)
         {
             InitializeComponent();
+            
+            if(selectedFish == "Crappie")
+            {
+                pictureBox1.Image = Properties.Resources.Crappie;
+            }
+            else if (selectedFish == "Perch")
+            {
+                pictureBox1.Image = Properties.Resources.Perch;
+            }
+            else if (selectedFish == "Walleye")
+            {
+                pictureBox1.Image = Properties.Resources.Walleye;
+            }
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -31,6 +44,11 @@ namespace CSC470_P2
         {
             this.Close();
 
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
 
         }
     }

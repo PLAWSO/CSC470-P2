@@ -20,9 +20,22 @@ namespace CSC470_P2
 
         private void btnSeeFish_Click(object sender, EventArgs e)
         {
-            FormSeeFish formseefish = new FormSeeFish();
+            string selectedFish = "";
+            if (radioCrappie.Checked)
+            {
+                selectedFish = "Crappie";
+            }
+            else if (radioPerch.Checked)
+            {
+                selectedFish = "Perch";
+            }
+            else if (radioWalleye.Checked)
+            {
+                selectedFish = "Walleye";
+            }
+            FormSeeFish formseefish = new FormSeeFish(selectedFish);
             formseefish.ShowDialog();
-
         }
+
     }
 }

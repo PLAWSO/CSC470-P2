@@ -31,12 +31,15 @@
             this.btnCancel = new System.Windows.Forms.Button();
             this.btnThrowItBack = new System.Windows.Forms.Button();
             this.btnKeepIt = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnCancel
             // 
+            this.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnCancel.Location = new System.Drawing.Point(16, 254);
-            this.btnCancel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(4);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(135, 44);
             this.btnCancel.TabIndex = 0;
@@ -47,7 +50,7 @@
             // btnThrowItBack
             // 
             this.btnThrowItBack.Location = new System.Drawing.Point(167, 254);
-            this.btnThrowItBack.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnThrowItBack.Margin = new System.Windows.Forms.Padding(4);
             this.btnThrowItBack.Name = "btnThrowItBack";
             this.btnThrowItBack.Size = new System.Drawing.Size(135, 44);
             this.btnThrowItBack.TabIndex = 1;
@@ -58,7 +61,7 @@
             // btnKeepIt
             // 
             this.btnKeepIt.Location = new System.Drawing.Point(317, 254);
-            this.btnKeepIt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnKeepIt.Margin = new System.Windows.Forms.Padding(4);
             this.btnKeepIt.Name = "btnKeepIt";
             this.btnKeepIt.Size = new System.Drawing.Size(135, 44);
             this.btnKeepIt.TabIndex = 2;
@@ -66,19 +69,32 @@
             this.btnKeepIt.UseVisualStyleBackColor = true;
             this.btnKeepIt.Click += new System.EventHandler(this.button3_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::CSC470_P2.Properties.Resources.Crappie;
+            this.pictureBox1.Location = new System.Drawing.Point(51, 32);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(371, 215);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // FormSeeFish
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnCancel;
             this.ClientSize = new System.Drawing.Size(469, 343);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnKeepIt);
             this.Controls.Add(this.btnThrowItBack);
             this.Controls.Add(this.btnCancel);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormSeeFish";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Keep it or let it go";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -88,5 +104,6 @@
         private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Button btnThrowItBack;
         private System.Windows.Forms.Button btnKeepIt;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
