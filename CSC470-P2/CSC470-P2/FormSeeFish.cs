@@ -32,19 +32,20 @@ namespace CSC470_P2
 
         private void button3_Click(object sender, EventArgs e)
         {
+            this.DialogResult = DialogResult.OK;
             this.Close();
         }
 
         private void btnThrowItBack_Click(object sender, EventArgs e)
         {
+            this.DialogResult = DialogResult.No;
             this.Close();
         }
 
         private void btnCancel_Click(object sender, EventArgs e)
         {
+            this.DialogResult = DialogResult.Cancel;
             this.Close();
-
-
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)

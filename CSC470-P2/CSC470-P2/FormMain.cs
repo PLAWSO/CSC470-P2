@@ -34,7 +34,20 @@ namespace CSC470_P2
                 selectedFish = "Walleye";
             }
             FormSeeFish formseefish = new FormSeeFish(selectedFish);
-            formseefish.ShowDialog();
+            DialogResult result = formseefish.ShowDialog();
+
+            if (result == DialogResult.OK)
+            {
+                MessageBox.Show("Decision to Keep It.", "DecisionResult");
+            }
+            else if (result == DialogResult.No)
+            {
+                MessageBox.Show("Decision to throw it back.", "DecisionResult");
+            }
+            else
+            {
+                MessageBox.Show("Decision canceled.", "DecisionResult");
+            }
         }
 
     }
