@@ -15,7 +15,7 @@ namespace CSC470_P2
         public FormMain()
         {
             InitializeComponent();
-        
+            
         }
     }
 }

@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace CSC470_P2
 {
-    public partial class Form1 : Form
+    public partial class FormSeeFish : Form
     {
-        public Form1()
+        public FormSeeFish()
         {
             InitializeComponent();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnThrowItBack_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
