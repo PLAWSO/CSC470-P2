@@ -36,19 +36,22 @@ namespace CSC470_P2
             // 
             // btnSeeFish
             // 
-            this.btnSeeFish.Location = new System.Drawing.Point(209, 199);
+            this.btnSeeFish.Location = new System.Drawing.Point(279, 245);
+            this.btnSeeFish.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSeeFish.Name = "btnSeeFish";
-            this.btnSeeFish.Size = new System.Drawing.Size(77, 23);
+            this.btnSeeFish.Size = new System.Drawing.Size(103, 28);
             this.btnSeeFish.TabIndex = 0;
             this.btnSeeFish.Text = "See Fish";
             this.btnSeeFish.UseVisualStyleBackColor = true;
+            this.btnSeeFish.Click += new System.EventHandler(this.btnSeeFish_Click);
             // 
             // FormMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(327, 247);
+            this.ClientSize = new System.Drawing.Size(436, 304);
             this.Controls.Add(this.btnSeeFish);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CSC470 - P2";
